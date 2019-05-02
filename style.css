@@ -1,0 +1,18 @@
+p {
+    color: white;
+}
+
+.container {
+    background-color: rgb(71, 58, 173);
+    padding: 40px;
+    margin: 10px 50px;
+    border: 10px solid red;
+}
+
+#monkey {
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 30px;
+}
