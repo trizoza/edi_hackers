@@ -1,12 +1,18 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    font-size: 150px;
+}
+
 p {
     color: white;
 }
 
 .container {
-    background-color: rgb(71, 58, 173);
+    background-color: lightblue;
     padding: 40px;
     margin: 10px 50px;
     border: 10px solid red;
+    border-radius: 50px;
 }
 
 #monkey {
@@ -16,3 +22,46 @@ p {
 h1 {
     font-size: 30px;
 }
+
+ul, ol {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+    /* height: 100px; */
+}
+
+.my-image {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.my-image p { 
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: purple;
+    background: orange;
+    border: 20px solid red;
+}
+
+.box {
+    position: absolute;
+    top: 300px;
+    right: 300px;
+    display: block;
+    background: rgb(138, 255, 123);
+    width: 200px;
+    height: 200px;
+    box-shadow: 20px 20px 15px rgb(0, 167, 56);
+}
+
+

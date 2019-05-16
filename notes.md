@@ -39,20 +39,6 @@ opening / closing tags
 
 <a>
 
-<div>
-
-<ol>
-
-<ul>
-
-<li>
-
-<img>
-
-<a href="mailto:parkingpete@edidigital.com">Email us</a>
-
-<!--  -->
-
 #CSS#
 
 syntax
@@ -79,19 +65,41 @@ margin
 
 padding
 
+Most of the stuff you will ever need can be found online.
+
+https://developer.mozilla.org/en-US/docs/Learn
+
+https://www.freecodecamp.org/
+
+<meta charset="utf-8">
+
+<title>Hello EDI!</title>
+
+<div>
+
+<ol>
+
+<ul>
+
+<li>
+
+<img src="" alt="" width="400">
+
+width
+
+height
+
+<a href="mailto:parkingpete@edidigital.com">Email us</a>
+
+text-decoration
+
 font-family
 
 https://fonts.google.com/
 
 font-size
 
-text-decoration
-
 cascading
-
-width
-
-height
 
 border-radius
 
@@ -101,14 +109,22 @@ box-shadow: horizontal-shadow vertical-shadow blur color
 
 float
 
-position: static, relative, absolute, sticky
+<=== DONE ===>
 
+### JavaScript ###
 
+values - string, number
+expresions - combination of values
+variables
+functions
+function parameters
+console.log
+array
+accessing array
+object
+accessing object
+if statements
+forEach
+script
+window.onload
 
-Most of the stuff you will ever need can be found online.
-
-https://developer.mozilla.org/en-US/docs/Learn
-
-https://www.freecodecamp.org/
-
-favicon generator
