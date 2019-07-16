@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Clock</title>
+</head>
+
+<body>
+
+    <div class="clock">
+        <div class="hand hour-hand"></div>
+        <div class="hand min-hand"></div>
+        <div class="hand second-hand"></div>
+    </div>
+
+    <style>
+        html {
+            background: #018DED url(https://picsum.photos/id/681/1600/800);
+            background-size: cover;
+            min-height: 100vh;
+        }
+
+        .clock {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            margin: 150px auto;
+            border: 20px solid white;
+            border-radius: 50%;
+        }
+
+        .hand {
+            width: 10px;
+            height: 180px;
+            background: #ffe238;
+            position: absolute;
+            left: 195px;
+            top: 20px;
+            transform-origin: bottom;
+        }
+    </style>
+
+    <!-- <script>
+        const secondHand = document.querySelector('.second-hand');
+        const minsHand = document.querySelector('.min-hand');
+        const hourHand = document.querySelector('.hour-hand');
+        function setDate() {
+            const now = new Date();
+            const seconds = now.getSeconds();
+            const secondsDegrees = ((seconds / 60) * 360);
+            secondHand.style.transform = `rotate(${secondsDegrees}deg)`;
+            const mins = now.getMinutes();
+            const minsDegrees = ((mins / 60) * 360);
+            minsHand.style.transform = `rotate(${minsDegrees}deg)`;
+            const hour = now.getHours();
+            const hourDegrees = ((hour / 12) * 360) + ((mins / 60) * 30);
+            hourHand.style.transform = `rotate(${hourDegrees}deg)`;
+        }
+        setInterval(setDate, 1000);
+        setDate();
+    </script> -->
+</body>
+
+</html>

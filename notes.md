@@ -113,6 +113,10 @@ float
 
 ### JavaScript ###
 
+CLOCK EXERCISE
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
 values - string, number
 expresions - combination of values
 variables
